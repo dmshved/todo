@@ -1,3 +1,3 @@
 # ToDo
 
-Educational project for **SoftPlus** :)
+Simple Todo Application for **[SoftPlus](https://softplusua.com/)** :)
