@@ -5,7 +5,7 @@ Simple Todo Application for **[SoftPlus](https://softplusua.com/)** :)
 ### Prerequisites
 - 🐳 Docker
 
-### Painless installation
+### Installation
 
 1. Clone the repo
 
