@@ -3,6 +3,7 @@
         <RootNamespace>ToDo.Api</RootNamespace>
         <AssemblyName>ToDo.Api</AssemblyName>
         <UserSecretsId>08ebc702-4428-46c8-afb3-bbd055cc0633</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
@@ -35,6 +36,12 @@
       <Folder Include="Repositories\" />
       <Folder Include="Shared\" />
       <Folder Include="Startup\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>

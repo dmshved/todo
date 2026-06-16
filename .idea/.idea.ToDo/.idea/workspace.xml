@@ -15,58 +15,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="066770df-3dd9-4051-bb4a-bfcac5f8b418" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Api/Dtos/CategoryDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Directory.Packages.props" beforeDir="false" afterPath="$PROJECT_DIR$/Directory.Packages.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDo.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDo.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.slnx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Web.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/Microsoft.OpenApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/ToDo.Api" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/ToDo.Api.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/ToDo.Api.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/ToDo.Api.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/ToDo.Api.staticwebassets.endpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/bin/Debug/net10.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/ToDo.Api.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/ToDo.Api.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/ToDo.Api.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.csproj.Up2Date" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/Web.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/apphost" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/ref/ToDo.Api.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/refint/ToDo.Api.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/staticwebassets.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/staticwebassets.build.json.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Debug/net10.0/swae.build.ex.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Web.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Web.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/Web.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Data/ApplicationDbContextInitialiser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Data/ApplicationDbContextInitialiser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/AssignCategoryDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/AssignCategoryDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/CreateCategoryDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/CreateCategoryDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/CreateTodoItemDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/CreateTodoItemDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/LoginDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/LoginDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/RegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/RegisterDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/UpdateCategoryDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/UpdateCategoryDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/UpdateTodoItemDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/UpdateTodoItemDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ref/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ref/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/refint/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/refint/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/ToDo.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/refint/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/refint/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/Api.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/Api.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/Api.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/Api.UnitTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/ToDo.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/ref/Api.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/ref/Api.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/refint/Api.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/refint/Api.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +80,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/87e50064019443ac98ad898be8de027326000/36/88583a66/02000050pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/dd4b01a7523c4e14accec0444236aefb28200/f1/6ef2ab45/0200004Apdb5.il" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1b6ca575d8b044f4bb3dc543c8dbcdc31d3e00/f0/1ba1b753/ControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/338170b3dcc64212b29fed2eec17f91013e00/05/6204fb70/ClaimTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3bfb329b50ab4b719e770a577377990fdba600/08/4d17200b/Exception.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,6 +91,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9d5f52c225a14460a41b970ba764655018000/94/f5ae7c8d/IAuthorizationRequirement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9d5f52c225a14460a41b970ba764655018000/e7/b9aced1e/AuthorizationServiceExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/da476e261fcf49b394c1074b25b4cdce2b2960/b6/25db86b7/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/da476e261fcf49b394c1074b25b4cdce2b2960/c5/83a90e5c/DatabaseFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/efd33322e9d94ba6bbdfbbc8770bf4631d600/22/5cc4aded/ServiceProviderServiceExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7a55d00e53b4c3bb5691fbce4705b6083800/ad/88a759d2/Enumerable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/23d24839d9b96d651f3e31225eeec7416b9ec2ede234e6d0f28da4d0f8d/JwtBearerExtensions.cs" root0="FORCE_HIGHLIGHTING" />
@@ -136,6 +140,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;.NET Launch Settings Profile.Api: https.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Api/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml.api: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -143,7 +150,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.com.jetbrains.rider.ideaInterop.settings.colors.RiderGeneralColorSettingsPage&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Api: https">
+  <component name="RunManager" selected="Docker.compose.yaml: Compose Deployment">
     <configuration name="ToDo" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -282,6 +289,69 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Api/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="api" />
+          <option name="containerName" value="api" />
+          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="src/Api/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml.api: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="api" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.compose.yaml.api: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -314,7 +384,10 @@
       <workItem from="1781421150077" duration="138000" />
       <workItem from="1781438469413" duration="54547000" />
       <workItem from="1781502023938" duration="2898000" />
-      <workItem from="1781532831116" duration="9661000" />
+      <workItem from="1781532831116" duration="10708000" />
+      <workItem from="1781585505615" duration="20252000" />
+      <workItem from="1781620365563" duration="6423000" />
+      <workItem from="1781628197352" duration="1033000" />
     </task>
     <servers />
   </component>
@@ -324,6 +397,17 @@
     <option featureType="dependencySupport" implementationName="dotnet:Microsoft.EntityFrameworkCore.Relational" />
     <option featureType="dependencySupport" implementationName="dotnet:Microsoft.ApplicationInsights" />
     <option featureType="dependencySupport" implementationName="dotnet:Microsoft.EntityFrameworkCore" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

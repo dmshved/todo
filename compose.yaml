@@ -1,0 +1,26 @@
+﻿services:
+  api:
+    image: api
+    container_name: api
+    build:
+      context: .
+      dockerfile: src/Api/Dockerfile
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+    environment:
+      - ASPNETCORE_URLS=http://+:5000
+      - ASPNETCORE_ENVIRONMENT=Development
+      - JwtOptions__SigningKey=hit-the-road-jack-and-don-t-you-come-back-no-more-no-more-no-more-no-more
+    depends_on:
+      - database
+  
+  database:
+    image: postgres:latest
+    container_name: todo.database
+    environment:
+      - POSTGRES_DB=ToDoDb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"

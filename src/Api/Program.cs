@@ -14,7 +14,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseOpenApi();
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 // Keep the order please
 app.UseAuthentication();

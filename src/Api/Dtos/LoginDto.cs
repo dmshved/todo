@@ -1,8 +1,12 @@
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace ToDo.Api.Dtos;
 
 public record LoginDto(
-    [Required, EmailAddress] string Email,
-    [Required] string Password
+    [Required, EmailAddress]
+    string Email,
+    
+    [Required] 
+    string Password
 );

@@ -24,10 +24,11 @@ public class ApplicationDbContextInitialiser
     private readonly ApplicationDbContext _context;
     private readonly UserManager<ApplicationUser> _userManager;
 
-    public ApplicationDbContextInitialiser( ApplicationDbContext context, UserManager<ApplicationUser> userManager)
+    public ApplicationDbContextInitialiser(ApplicationDbContext context, UserManager<ApplicationUser> userManager, ILogger<ApplicationDbContextInitialiser> logger)
     {
         _context = context;
         _userManager = userManager;
+        _logger = logger;
     }
 
     public async Task InitialiseAsync()
