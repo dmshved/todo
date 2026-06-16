@@ -24,3 +24,10 @@ docker compose up -d
 ```
 http://localhost:5000/scalar/
 ```
+
+4. Login with default credentials to get the JWT access token (valid 15 minutes)
+
+```
+email: user@test.com
+password: Password12345!
+```
