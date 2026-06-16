@@ -15,60 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="066770df-3dd9-4051-bb4a-bfcac5f8b418" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Api/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.slnx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Data/ApplicationDbContextInitialiser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Data/ApplicationDbContextInitialiser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/AssignCategoryDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/AssignCategoryDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/CreateCategoryDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/CreateCategoryDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/CreateTodoItemDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/CreateTodoItemDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/LoginDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/LoginDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/RegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/RegisterDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/UpdateCategoryDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/UpdateCategoryDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Dtos/UpdateTodoItemDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Dtos/UpdateTodoItemDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ref/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ref/ToDo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/refint/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/refint/ToDo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/Api.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/ToDo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/ToDo.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/refint/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/refint/ToDo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Release/net10.0/rpswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/Api.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/Api.UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/Api.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/Api.UnitTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/ToDo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/ToDo.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/bin/Debug/net10.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/ref/Api.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/ref/Api.UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/refint/Api.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/refint/Api.UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,7 +337,7 @@
       <workItem from="1781532831116" duration="10708000" />
       <workItem from="1781585505615" duration="20252000" />
       <workItem from="1781620365563" duration="6423000" />
-      <workItem from="1781628197352" duration="1033000" />
+      <workItem from="1781628197352" duration="2099000" />
     </task>
     <servers />
   </component>
