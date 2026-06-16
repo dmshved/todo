@@ -10,7 +10,8 @@
       - ASPNETCORE_ENVIRONMENT=Development
       - JwtOptions__SigningKey=hit-the-road-jack-and-don-t-you-come-back-no-more-no-more-no-more-no-more
     depends_on:
-      - database
+      database:
+        condition: service_healthy
 
   database:
     image: postgres:latest
