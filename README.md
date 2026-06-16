@@ -10,7 +10,7 @@ Simple Todo Application for **[SoftPlus](https://softplusua.com/)** :)
 1. Clone the repo
 
 ```
-https://github.com/dmshved/todo.git
+git clone https://github.com/dmshved/todo.git
 ```
 
 2. Run the application
