@@ -10,7 +10,7 @@ namespace ToDo.Api.Controllers;
 [Authorize]
 [ApiController]
 [Route("api/[controller]")]
-public class TodoItemsController: ControllerBase
+public class TodoItemsController : ControllerBase
 {
     private readonly ITodoItemService _todoItemService;
  
@@ -60,7 +60,6 @@ public class TodoItemsController: ControllerBase
     public async Task<IActionResult> AssignToCategory(Guid id, [FromBody] AssignCategoryDto dto)
     {
         var result = await _todoItemService.AssignToCategoryAsync(id, dto);
-        
         return StatusCode(result.StatusCode, result.Data.ToDto());
     }
    

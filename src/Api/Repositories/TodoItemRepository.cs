@@ -14,6 +14,11 @@ public class TodoItemRepository : ITodoItemRepository
         _context = context;
     }
 
+    /// <summary>
+    /// Returns an IQueryable of TodoItem entities for the specified user, including their categories.
+    /// </summary>
+    /// <param name="userId">The Id of the user whose todo items will be retrieved.</param>
+    /// <returns> An <see cref="IQueryable{TodoItem}"/> for the user.</returns>
     public IQueryable<TodoItem> GetQueryable(string userId)
     {
         return _context.TodoItems

@@ -15,10 +15,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="066770df-3dd9-4051-bb4a-bfcac5f8b418" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ToDo.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Controllers/TodoItemsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Controllers/TodoItemsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Entities/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Exceptions/NotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Repositories/TodoItemRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Repositories/TodoItemRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/bin/Debug/net10.0/ToDo.Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/Api.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ToDo.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ref/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/ref/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/refint/ToDo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/refint/ToDo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.UnitTests/obj/Debug/net10.0/Api.UnitTests.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +44,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/2f3a29ca0bc843c58b23c27bcf0251ed28200/6c/2f2526f6/0200000Epdb38.il" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/87e50064019443ac98ad898be8de027326000/36/88583a66/02000050pdb3.il" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/dd4b01a7523c4e14accec0444236aefb28200/f1/6ef2ab45/0200004Apdb5.il" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1b6ca575d8b044f4bb3dc543c8dbcdc31d3e00/f0/1ba1b753/ControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +54,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3bfb329b50ab4b719e770a577377990fdba600/6a/74b16f8b/Task.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/461073d893d44fe6b3dc11611d9910bc11800/6e/64a17b30/IdentityUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/461073d893d44fe6b3dc11611d9910bc11800/ed/0707143d/IdentityUser`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/805c2493337047ba82fe25962609d5ea20600/d7/01265e8c/AuthAppBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9d5f52c225a14460a41b970ba764655018000/94/f5ae7c8d/IAuthorizationRequirement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9d5f52c225a14460a41b970ba764655018000/e7/b9aced1e/AuthorizationServiceExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/da476e261fcf49b394c1074b25b4cdce2b2960/b6/25db86b7/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
@@ -338,6 +355,11 @@
       <workItem from="1781585505615" duration="20252000" />
       <workItem from="1781620365563" duration="6423000" />
       <workItem from="1781628197352" duration="2099000" />
+      <workItem from="1781646604375" duration="60000" />
+      <workItem from="1782070413235" duration="309000" />
+      <workItem from="1782104053217" duration="12729000" />
+      <workItem from="1782123580680" duration="2537000" />
+      <workItem from="1782138905349" duration="3103000" />
     </task>
     <servers />
   </component>
@@ -361,6 +383,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="docs: update README.md" />
+    <MESSAGE value="docs: update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
