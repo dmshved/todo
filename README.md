@@ -1,6 +1,6 @@
 ### ToDo
 
-Simple Todo Application for **[SoftPlus](https://softplusua.com/)** :)
+Simple Todo Application
 
 ### Prerequisites
 - 🐳 Docker
