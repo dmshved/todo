@@ -6,10 +6,10 @@ public abstract class BaseEntity
     {
         CreatedAt = UpdatedAt = DateTimeOffset.UtcNow;
     }
-    
+
     public Guid Id { get; set; }
-    
+
     public DateTimeOffset CreatedAt { get; set; }
-    
-    public DateTimeOffset UpdatedAt { get; set; }  
+
+    public DateTimeOffset UpdatedAt { get; set; }
 }
