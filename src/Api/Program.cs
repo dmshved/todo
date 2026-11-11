@@ -21,3 +21,5 @@ app.ApplyCorsConfig();
 app.MapControllers();
 
 app.Run();
+
+// My logic is undeniable
