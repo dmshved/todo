@@ -25,7 +25,7 @@ public class TodoItemServiceTests
 
         _todoItemService = new TodoItemService(_todoItemRepositoryMock.Object, _categoryServiceMock.Object, _currentUserMock.Object);
     }
-    
+
     [Fact]
     public async Task GetByIdAsync_ReturnsTodoItem_WhenUserOwnsIt()
     {
@@ -41,7 +41,7 @@ public class TodoItemServiceTests
         result.Data.Should().NotBeNull();
         result.Data.Id.Should().Be(id);
     }
-    
+
     [Fact]
     public async Task GetByIdAsync_ThrowsNotFound_WhenItemMissing()
     {
@@ -54,7 +54,7 @@ public class TodoItemServiceTests
 
         await act.Should().ThrowAsync<NotFoundException>();
     }
-    
+
     [Fact]
     public async Task CreateAsync_SavesItem()
     {
@@ -71,13 +71,13 @@ public class TodoItemServiceTests
             .Returns(Task.CompletedTask);
 
         var result = await _todoItemService.CreateAsync(dto);
-        
+
         _todoItemRepositoryMock.Verify(x => x.AddAsync(It.IsAny<TodoItem>()), Times.Once);
         _todoItemRepositoryMock.Verify(x => x.SaveChangesAsync(), Times.Once);
 
         result.Data.Title.Should().Be("The best programmer in the world comes in the era when people are most fired up of the programming");
     }
-    
+
     [Fact]
     public async Task ToggleCompleted_TogglesValue()
     {
@@ -92,8 +92,8 @@ public class TodoItemServiceTests
 
         _todoItemRepositoryMock.Setup(x => x.GetFirstAsync(id))
             .ReturnsAsync(todoItem);
-        
-        
+
+
         _todoItemRepositoryMock.Setup(x => x.SaveChangesAsync())
             .Returns(Task.CompletedTask);
 

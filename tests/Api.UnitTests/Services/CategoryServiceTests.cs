@@ -15,9 +15,9 @@ public class CategoryServiceTests
 {
     private readonly Mock<ICategoryRepository> _categoryRespoitoryMock;
     private readonly Mock<IUser> _currentUserMock;
-    
+
     private readonly CategoryService _categoryService;
-    
+
     public CategoryServiceTests()
     {
         _categoryRespoitoryMock = new Mock<ICategoryRepository>();
@@ -43,7 +43,7 @@ public class CategoryServiceTests
         var result = await _categoryService.GetAsync();
 
         result.Data.First().Name.Should().Be("Programming");
-        
+
         _categoryRespoitoryMock.Verify(x => x.GetAllAsync("12345"), Times.Once);
     }
 
@@ -68,7 +68,7 @@ public class CategoryServiceTests
 
         result.StatusCode.Should().Be(StatusCodes.Status200OK);
     }
-    
+
     public async Task GetByIdAsync_ThrowsNotFoundException_WhenCategoryMissing()
     {
         var id = Guid.NewGuid();
@@ -82,7 +82,7 @@ public class CategoryServiceTests
         await action.Should()
             .ThrowAsync<NotFoundException>();
     }
-    
+
     [Fact]
     public async Task GetByIdAsync_ThrowsUnauthorizedException_WhenCategoryBelongsToAnotherUser()
     {
@@ -104,7 +104,7 @@ public class CategoryServiceTests
         await action.Should()
             .ThrowAsync<UnauthorizedAccessException>();
     }
-    
+
     [Fact]
     public async Task CreateAsync_CreatesCategory()
     {
@@ -136,12 +136,12 @@ public class CategoryServiceTests
             x => x.SaveChangesAsync(),
             Times.Once);
     }
-    
+
     [Fact]
     public async Task UpdateAsync_UpdatesCategory()
     {
         var id = Guid.NewGuid();
-        
+
         var category = new Category
         {
             Id = id,
@@ -164,15 +164,15 @@ public class CategoryServiceTests
         result.Data.Name
             .Should()
             .Be("ASP.NET Core");
-        
+
         _categoryRespoitoryMock.Verify(x => x.SaveChangesAsync(), Times.Once);
     }
-    
+
     [Fact]
     public async Task DeleteAsync_DeletesCategory()
     {
         var id = Guid.NewGuid();
-        
+
         var category = new Category
         {
             Id = id,
@@ -188,7 +188,7 @@ public class CategoryServiceTests
             .Returns(Task.CompletedTask);
 
         var result = await _categoryService.DeleteAsync(id);
-        
+
         _categoryRespoitoryMock.Verify(x => x.SaveChangesAsync(), Times.Once);
 
         result.StatusCode.Should().Be(StatusCodes.Status204NoContent);

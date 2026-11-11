@@ -16,7 +16,7 @@ public static class TodoItemMapper
             UserId = userId
         };
     }
-    
+
     public static TodoItemDto ToDto(this TodoItem entity)
     {
         return new TodoItemDto(

@@ -14,13 +14,13 @@ public static class QueryableExtensions
             .Skip((pageNumber - 1) * pageSize)
             .Take(pageSize);
     }
-   
+
     // Filtering
     public static IQueryable<T> ApplySort<T>(this IQueryable<T> query, string? sortBy) where T : class
     {
         if (string.IsNullOrWhiteSpace(sortBy))
             return query;
-        
+
         var allowedProperties = typeof(T)
             .GetProperties(BindingFlags.Public | BindingFlags.Instance)
             .Select(p => p.Name)
@@ -35,7 +35,7 @@ public static class QueryableExtensions
                 continue;
 
             var property = tokens[0];
-            
+
             var direction = tokens.Length > 1 && tokens[1].Equals("desc", StringComparison.OrdinalIgnoreCase)
                 ? "descending"
                 : "ascending";
@@ -47,13 +47,13 @@ public static class QueryableExtensions
             ? query.OrderBy(string.Join(", ", sortExpressions))
             : query;
     }
-   
+
     // Searching
     public static IQueryable<TodoItem> ApplySearch(this IQueryable<TodoItem> query, string? search)
     {
         if (string.IsNullOrWhiteSpace(search))
             return query;
-        
+
         return query.Where(m => m.Categories.Any(c => EF.Functions.ILike(c.Name, $"%{search}%")));
     }
 }

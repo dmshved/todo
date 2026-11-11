@@ -6,7 +6,7 @@ public record TodoItemDto(
     string? Description,
     bool Completed,
     List<CategoryDto> Categories,
-    DateTimeOffset CreatedAt, 
+    DateTimeOffset CreatedAt,
     DateTimeOffset UpdatedAt,
     string UserId
 );

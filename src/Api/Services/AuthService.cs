@@ -13,20 +13,20 @@ public class AuthService : IAuthService
 {
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly ITokenService _tokenService;
-    
+
     public AuthService(UserManager<ApplicationUser> userManager, ITokenService tokenService)
     {
         _userManager = userManager;
         _tokenService = tokenService;
     }
-    
+
     public async Task<Result<AuthResponseDto>> LoginAsync(LoginDto dto)
     {
         var user = await _userManager.FindByEmailAsync(dto.Email);
 
         if (user is null || !await _userManager.CheckPasswordAsync(user, dto.Password))
             return Result<AuthResponseDto>.Fail(StatusCodes.Status401Unauthorized, "Invalid Username or Password");
-        
+
         List<Claim> claims =
         [
             new (ClaimTypes.NameIdentifier, user.Id),
@@ -44,10 +44,10 @@ public class AuthService : IAuthService
     {
         var user = new ApplicationUser
         {
-            UserName = dto.Email, 
+            UserName = dto.Email,
             Email = dto.Email
         };
-        
+
         var identityResult = await _userManager.CreateAsync(user, dto.Password);
 
         if (! identityResult.Succeeded)
@@ -62,7 +62,7 @@ public class AuthService : IAuthService
             new (ClaimTypes.NameIdentifier, user.Id),
             new (JwtRegisteredClaimNames.Email, user.Email),
         ];
-        
+
         var token = _tokenService.GenerateAccessToken(claims);
 
         var response = new AuthResponseDto(Token: token);

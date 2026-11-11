@@ -22,21 +22,21 @@ public static class DependenciesConfig
     {
         var connectionString = builder.Configuration.GetConnectionString(ApplicationConstants.Database);
         Guard.Against.Null(connectionString, message: $"Connection string '{ApplicationConstants.Database}' not found.");
-      
+
         // Application databse context
         builder.Services.AddDbContext<ApplicationDbContext>(options =>
         {
             options.UseNpgsql(connectionString);
         });
-        
+
         // Identity
         builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>();
-        
+
         // Jwt config with Options pattern
         builder.Services.AddOptions<JwtOptions>()
             .BindConfiguration(JwtOptions.SectionName);
-        
+
         builder.Services.AddSingleton<IPostConfigureOptions<JwtBearerOptions>, ConfigureJwtBearerOptions>();
 
         builder.Services.AddAuthentication(options =>
@@ -47,40 +47,40 @@ public static class DependenciesConfig
             .AddJwtBearer();
 
         builder.Services.AddAuthorizationBuilder();
-        
+
         // Database initialiser
         builder.Services.AddScoped<ApplicationDbContextInitialiser>();
-        
+
         // Repositories
         builder.Services.AddScoped<ITodoItemRepository, TodoItemRepository>();
         builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-        
+
         // Services
         builder.Services.AddScoped<ITokenService, TokenService>();
         builder.Services.AddScoped<ITodoItemService, TodoItemService>();
         builder.Services.AddScoped<ICategoryService, CategoryService>();
         builder.Services.AddScoped<IAuthService, AuthService>();
-        
+
         // Current user
         builder.Services.AddHttpContextAccessor();
         builder.Services.AddScoped<IUser, CurrentUserService>();
-       
+
         // Problem deatails exception handler
         builder.Services.AddExceptionHandler<ProblemDetailsExceptionHandler>();
-        
+
         // Controllers
         builder.Services.AddControllers();
-       
+
         // CORS
         builder.Services.AddCorsServices();
-        
+
         // OpenApi
         builder.Services.AddOpenApiServices();
-        
+
         // Routing
         builder.Services.AddRouting(options =>
         {
             options.LowercaseUrls = true;
-        }); 
+        });
     }
 }

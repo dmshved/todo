@@ -11,6 +11,6 @@ public interface ITodoItemRepository
     Task AddAsync(TodoItem todoItem);
 
     void Delete(TodoItem todoItem);
-    
+
     Task SaveChangesAsync();
 }
