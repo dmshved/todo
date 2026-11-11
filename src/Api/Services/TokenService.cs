@@ -16,7 +16,7 @@ public class TokenService : ITokenService
     {
         _jwtOptions = jwtOptions;
     }
-    
+
     public string GenerateAccessToken(IEnumerable<Claim> claims)
     {
         var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtOptions.Value.SigningKey));

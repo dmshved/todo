@@ -8,12 +8,12 @@ namespace ToDo.Api.Repositories;
 public class CategoryRepository : ICategoryRepository
 {
     private readonly ApplicationDbContext _context;
-    
+
     public CategoryRepository(ApplicationDbContext context)
     {
         _context = context;
     }
-    
+
     public async Task<IReadOnlyCollection<Category>> GetAllAsync(string userId)
     {
         return await _context.Categories
@@ -32,7 +32,7 @@ public class CategoryRepository : ICategoryRepository
     {
         await _context.Categories.AddAsync(category);
     }
-    
+
     public void Delete(Category category)
     {
         _context.Categories.Remove(category);

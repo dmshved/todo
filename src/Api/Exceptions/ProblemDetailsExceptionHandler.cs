@@ -26,14 +26,14 @@ public class ProblemDetailsExceptionHandler : IExceptionHandler
                 Status = StatusCodes.Status400BadRequest,
                 Title = be.Message,
                 Type = "https://tools.ietf.org/html/rfc9110#section-15.5.1"
-            }), 
+            }),
             ForbiddenAccessException fe => (StatusCodes.Status403Forbidden, new ProblemDetails
             {
                 Status = StatusCodes.Status403Forbidden,
                 Title = "Forbidden",
                 Type = "https://tools.ietf.org/html/rfc9110#section-15.5.4",
                 Detail = fe.Message
-            }), 
+            }),
             _ => (-1, null)
         };
 

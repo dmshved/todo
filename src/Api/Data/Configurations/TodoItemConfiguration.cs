@@ -11,11 +11,11 @@ public class TodoItemConfiguration : IEntityTypeConfiguration<TodoItem>
         builder.Property(t => t.Title)
             .HasMaxLength(200)
             .IsRequired();
-        
+
         builder.Property(t => t.Description)
             .HasMaxLength(1500)
             .IsRequired();
-        
+
         builder.HasMany(t => t.Categories)
             .WithMany(c => c.TodoItems)
             .UsingEntity(j => j.ToTable("TodoItemCategories"));

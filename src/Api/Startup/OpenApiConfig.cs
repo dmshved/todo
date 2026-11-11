@@ -6,17 +6,17 @@ using Scalar.AspNetCore;
 
 namespace ToDo.Api.Startup;
 
-public static class OpenApiConfig 
+public static class OpenApiConfig
 {
     public static void AddOpenApiServices(this IServiceCollection services)
     {
         services.AddOpenApi(options =>
         {
-            options.AddOperationTransformer<ApiExceptionOperationTransformer>(); 
-            options.AddDocumentTransformer<BearerSecuritySchemeTransformer>(); 
+            options.AddOperationTransformer<ApiExceptionOperationTransformer>();
+            options.AddDocumentTransformer<BearerSecuritySchemeTransformer>();
         });
     }
-    
+
     public static void UseOpenApi(this WebApplication app)
     {
         if (app.Environment.IsDevelopment())

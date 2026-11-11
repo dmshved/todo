@@ -13,7 +13,7 @@ namespace ToDo.Api.Controllers;
 public class TodoItemsController : ControllerBase
 {
     private readonly ITodoItemService _todoItemService;
- 
+
     public TodoItemsController(ITodoItemService todoItemService)
     {
         _todoItemService = todoItemService;
@@ -23,7 +23,7 @@ public class TodoItemsController : ControllerBase
     public async Task<IActionResult> Get([FromQuery] TodoItemQueryFilter filter)
     {
         var result = await _todoItemService.GetAsync(filter);
-            
+
         var todoItemDtos = result.Data.Data
             .Select(t => t.ToDto())
             .ToList();
@@ -38,7 +38,7 @@ public class TodoItemsController : ControllerBase
             TotalRecords = pagination.TotalRecords,
             TotalPages = pagination.TotalPages
         };
-        
+
         return StatusCode(result.StatusCode, pagedResponse);
     }
 
@@ -55,21 +55,21 @@ public class TodoItemsController : ControllerBase
         var result = await _todoItemService.CreateAsync(dto);
         return StatusCode(result.StatusCode, result.Data.ToDto());
     }
-    
+
     [HttpPost("{id:guid}/categories")]
     public async Task<IActionResult> AssignToCategory(Guid id, [FromBody] AssignCategoryDto dto)
     {
         var result = await _todoItemService.AssignToCategoryAsync(id, dto);
         return StatusCode(result.StatusCode, result.Data.ToDto());
     }
-   
+
     [HttpPatch("{id:guid}")]
     public async Task<IActionResult> ToggleCompleted(Guid id)
     {
         var result = await _todoItemService.ToggleCompleted(id);
         return StatusCode(result.StatusCode, result.Data.ToDto());
     }
-   
+
     [HttpPut("{id:guid}")]
     public async Task<IActionResult> Update(Guid id, [FromBody] UpdateTodoItemDto dto)
     {

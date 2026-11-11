@@ -67,7 +67,7 @@ public class ApplicationDbContextInitialiser
         {
             await _userManager.CreateAsync(user, "Password12345!");
         }
-        
+
         // Seed categories
         if (!await _context.Categories.AnyAsync())
         {

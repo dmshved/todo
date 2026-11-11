@@ -18,17 +18,17 @@ public class ConfigureJwtBearerOptions : IPostConfigureOptions<JwtBearerOptions>
     public void PostConfigure(string? name, JwtBearerOptions options)
     {
         JwtOptions jwtOptions = _options.Value;
-        
-        options.TokenValidationParameters = new TokenValidationParameters() 
+
+        options.TokenValidationParameters = new TokenValidationParameters()
         {
             ValidateIssuer = true,
             ValidIssuer = jwtOptions.Issuer,
-            
+
             ValidateAudience = true,
             ValidAudience = jwtOptions.Audience,
-            
+
             ValidateLifetime = true,
-            
+
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SigningKey))
         };

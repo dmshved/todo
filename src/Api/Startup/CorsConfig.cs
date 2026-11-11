@@ -16,7 +16,7 @@ public static class CorsConfig
             });
         });
     }
-    
+
     public static void ApplyCorsConfig(this WebApplication app)
     {
         app.UseCors(AllowAllPolicy);

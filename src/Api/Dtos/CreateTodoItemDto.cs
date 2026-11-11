@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations;
 namespace ToDo.Api.Dtos;
 
 public record CreateTodoItemDto(
-    [Required, MaxLength(200)] 
+    [Required, MaxLength(200)]
     string Title,
-    
-    [MaxLength(1500)] 
+
+    [MaxLength(1500)]
     string? Description
 );

@@ -13,12 +13,12 @@ public static class CategoryMapper
             UserId = userId
         };
     }
-    
+
     public static CategoryDto ToDto(this Category entity)
     {
         return new CategoryDto(
             entity.Id,
-            entity.Name, 
+            entity.Name,
             entity.CreatedAt,
             entity.UpdatedAt,
             entity.UserId

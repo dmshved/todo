@@ -17,7 +17,7 @@ public class CategoriesController : ControllerBase
     {
         _categoryService = categoryService;
     }
-    
+
     [HttpGet]
     public async Task<IActionResult> Get()
     {
@@ -26,7 +26,7 @@ public class CategoriesController : ControllerBase
         var categories = result.Data
             .Select(c => c.ToDto())
             .ToList();
-        
+
         return StatusCode(result.StatusCode, categories);
     }
 
@@ -43,7 +43,7 @@ public class CategoriesController : ControllerBase
         var result = await _categoryService.CreateAsync(dto);
         return StatusCode(result.StatusCode, result.Data.ToDto());
     }
-   
+
     [HttpPut("{id:guid}")]
     public async Task<IActionResult> Update(Guid id, [FromBody] UpdateCategoryDto dto)
     {
