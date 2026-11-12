@@ -1,9 +1,9 @@
 ### ToDo
 
-Simple Todo Application
+Simple to do application
 
 ### Prerequisites
-- 🐳 Docker
+- 🐳 [Docker](https://docs.docker.com/desktop/)
 
 ### Installation
 
